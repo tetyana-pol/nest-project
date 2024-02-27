@@ -6,7 +6,9 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.enableCors({
-    origin: ['http://localhost:3000', 'http://localhost:4200'],
+    origin: ['http://localhost:3000',
+     'http://localhost:4200',
+     'https://tetyana-pol.github.io/react-for-nest'],
     methods: ['GET', 'POST'],
     credentials: true,
   });
