@@ -8,7 +8,7 @@ async function bootstrap() {
   app.enableCors({
     origin: ['http://localhost:3000',
      'http://localhost:4200',
-     'https://tetyana-pol.github.io/react-for-nest'],
+     'https://tetyana-pol.github.io'],
     methods: ['GET', 'POST'],
     credentials: true,
   });
